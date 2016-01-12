@@ -21,7 +21,7 @@ public class ChatAppClient extends Application {
 
     private Parent createContent() {
         messages.setFont(Font.font(72));
-        messages.setPrefHeight(550);
+        messages.setPrefHeight(650);
         TextField input = new TextField();
         input.setOnAction(event -> {
             String message = "Client: " + input.getText();
